@@ -9,3 +9,36 @@ body {
   opacity: 0.9;
   text-align: center;
 }
+
+/* Header */
+header {
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  z-index: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+}
+
+header nav {
+  padding-right: 40px;
+  margin-top: 25px;
+}
+
+nav span {
+  padding: 20px 10px;
+  color: white;
+  text-decoration: underline;
+  font-size: 22px;
+}
