@@ -156,3 +156,11 @@ nav span {
 .contact-info, h5 {
   font-size: 1.15rem;
 }
+
+/* Footer */
+footer {
+  margin-left: 20px;
+  color: seashell;
+  text-align: left;
+  font-weight: bold;
+}
