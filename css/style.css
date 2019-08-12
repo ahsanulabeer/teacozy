@@ -18,6 +18,10 @@ h4 {
   color: seashell;
 }
 
+h5 {
+  color: seashell;
+}
+
 a {
   color: white;
 }
@@ -95,6 +99,10 @@ nav span {
 }
 
 /*Featured Tea */
+.featuredtea{
+  margin-top: 100px;
+}
+
 .featuredtea-content {
   display: flex;
   flex-direction: row;
@@ -108,4 +116,43 @@ nav span {
 
 .tea-container , h4 {
   margin-top: 10px;
+}
+
+/* Locations */
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  margin-top: 50px;
+}
+
+.locations-heading {
+  padding-top: 60px;
+  padding-bottom: 15px;
+}
+
+.locations-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 15px auto auto 50px;
+}
+
+.location-card {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  color: seashell;
+  background-color: black;
+  width: 300px;
+  margin-right: 40px;
+  font-size: 1.25rem;
+  opacity: 1;
+}
+
+/* Contact Info */
+.contact-info{
+  height: 200px;
+}
+.contact-info, h5 {
+  font-size: 1.15rem;
 }
