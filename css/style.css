@@ -10,6 +10,26 @@ body {
   text-align: center;
 }
 
+h2 {
+  color: seashell;
+}
+
+h4 {
+  color: seashell;
+}
+
+a {
+  color: white;
+}
+
+div {
+  display: block;
+}
+
+.main {
+  width: 1200px;
+  margin: 0 auto;
+}
 /* Header */
 header {
   display: flex;
@@ -18,6 +38,8 @@ header {
   height: 69px;
   width: 100%;
   z-index: 1;
+  background-color: black;
+  top: 0px;
 }
 
 .logo {
@@ -41,4 +63,49 @@ nav span {
   color: white;
   text-decoration: underline;
   font-size: 22px;
+}
+
+/* Mission */
+.mission {
+  display: flex;
+  z-index: 0;
+  padding-top: 70px;
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.mission-content {
+  background-color: black;
+  width: 100%;
+  height: 15%;
+
+}
+
+.misson-content , h2 {
+  margin: 0 auto;
+  padding-top: 7px;
+  font-size: 2rem;
+}
+
+.misson-content , h4 {
+  font-size: 1.45rem;
+}
+
+/*Featured Tea */
+.featuredtea-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tea-container {
+  padding-right: 30px;
+}
+
+.tea-container , h4 {
+  margin-top: 10px;
 }
